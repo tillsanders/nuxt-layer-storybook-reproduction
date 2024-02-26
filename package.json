@@ -1,0 +1,35 @@
+{
+  "name": "my-nuxt-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "postinstall": "nuxt prepare .playground",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/storybook": "7.0.0",
+    "eslint": "^8.57.0",
+    "nuxt": "^3.10.3",
+    "typescript": "^5.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "7.6.17",
+    "@types/node": "^20.11.20",
+    "@storybook/vue3": "7.6.17",
+    "@storybook-vue/nuxt": "0.2.2",
+    "@storybook/addon-links": "7.6.17",
+    "@storybook/builder-vite": "7.6.17",
+    "@storybook/addon-essentials": "7.6.17",
+    "@storybook/addon-interactions": "7.6.17",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/blocks": "7.6.17"
+  }
+}
